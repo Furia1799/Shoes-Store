@@ -23,36 +23,34 @@
         </div>
     </header>
     <section>
-        <div id="navbar">
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-                <a class="navbar-brand" href="#">
-                    <img src="img/Logo.jpg" alt="Shoe'store" width="50" height="50">
-                </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mujere</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hombre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Novedades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                </ul>
-                <a>
-                    <button type="button" class="btn btn-info">Registrar</button>
-                </a>
-                <a>
-                    <button type="button" class="btn btn-success">Iniciar Sesion</button>
-                </a>
-                <a>
-                    <button type="button" class="btn btn-danger">Salir</button>
-                </a>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.jpg" alt="Shoe'store" width="50" height="50">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mujere</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hombre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+            </ul>
+            <a>
+                <button type="button" class="btn btn-info">Registrar</button>
+            </a>
+            <a>
+                <button type="button" class="btn btn-success">Iniciar Sesion</button>
+            </a>
+            <a>
+                <button type="button" class="btn btn-danger">Salir</button>
+            </a>
+        </nav>
         <div class="container-fluid"><br>
             <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
             <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
@@ -60,25 +58,29 @@
             <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
         </div>
         <div class="container-fluid">
-            <div id="Productos">
-                <h1>Productos</h1>
-                <div id="prodcuto">
-                    <a href="producto">
-                        <img src="" alt="">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="display-4 text-center">Productos para Hombres</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="producto ">
+                        <img src="img/tennis_1.jpg" alt="tennis_3" width="300" height="300">
                         <h2>zapatoos negros</h2>
                         <p> 300 pesos</p>
                     </a>
                 </div>
-                <div id="prodcuto">
+                <div class="col-lg-4">
                     <a href="producto">
-                        <img src="" alt="">
+                        <img src="img/tennis_2.jpg" alt="tennis_2" width="300" height="300">
                         <h2>zapatoos negros</h2>
                         <p> 300 pesos</p>
                     </a>
                 </div>
-                <div id="prodcuto">
+                <div class="col-lg-4">
                     <a href="producto">
-                        <img src="" alt="">
+                        <img src="img/tennis_3.jpg" alt="tennis_1" width="300" height="300">
                         <h2>zapatoos negros</h2>
                         <p> 300 pesos</p>
                     </a>
