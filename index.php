@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Shoe'store | Bienvenido </title>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width,  initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shoe'store | Bienvenido </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id= "titulo" class="">
-                <img src="" alt="Store">
-                <h1>SHOE'STORE</h1>
-            </div>
-            <div id="barra_navegacion">
-                <nav>
-                    <a id="logo"href="#">
-                        <img src="">
-                    </a>
-                    <ul>
-                        <il>
-                            <a>Mujeres</a>
-                        </il>
-                        <il>
-                            <a>Hombres</a>
-                        </il>
-                        <il>
-                            <a>Novedades</a>
-                        </il>
-                        <il>
-                            <a>Nosotros</a>
-                        </il>
-                    </ul>
-                    <a>
-                        <button>Regisrate</button>
-                    </a>
-                    <a>
-                        <button>Iniciar Sesion</button>
-                    </a>
-                    <a>
-                        <button>Salir</button>
-                    </a>
-                </nav>
-            </div>
-
+        <div id="titulo" class="jumbotron jumbotron-fluid text-center">
+            <h1 class="display-4">SHOE'STORE</h1>
+            <img src="img/Logo.jpg" width="100" height="100">
         </div>
     </header>
     <section>
-        <div class="container">
+        <div id="navbar">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Logo.jpg" alt="Shoe'store" width="50" height="50">
+                </a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mujere</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hombre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                </ul>
+                <a>
+                    <button type="button" class="btn btn-info">Registrar</button>
+                </a>
+                <a>
+                    <button type="button" class="btn btn-success">Iniciar Sesion</button>
+                </a>
+                <a>
+                    <button type="button" class="btn btn-danger">Salir</button>
+                </a>
+            </nav>
+        </div>
+        <div class="container-fluid"><br>
+            <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+            <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+            <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+            <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+        </div>
+        <div class="container-fluid">
             <div id="Productos">
                 <h1>Productos</h1>
                 <div id="prodcuto">
@@ -73,10 +84,50 @@
                     </a>
                 </div>
             </div>
+            <div>
+                <p>
+                    saegdsddddgafdgffdagdshdsjhfdsan
+                    <br>
+                    dsajfdbjsabdfnas
+                    dsajbfdsaf
+                    dsajfhjdnm
+                    sdkfkdsnfm
+                    <br>
+                    sdmfdsnmfds
+                    dsjfjdsnmf
+                    dfjdshkjfhjdsfn
+                    <br>
+                    dsjfhkjdsfds
+                    dsjfhjdshfs
+                    <br>
+                    dskjfkjdsf
+                    dskjdfhjds
+                    <br>
+                    sdjhfjsd
+                    dsjhfkldskflds
+                    dslkfjklds
+                    <br>
+                    dskfjksdj
+                    dlkjfkds
+                    <br>
+                    dskjflksddsk
+                    sdlkfdhjdsnf
+                    <br>
+                    dsjfkdsl
+                    slkfdslkf
+                    <br>
+                    dskfldsj
+                    sdkjf;lds
+                    <br>
+                    dskgjlkds
+                    dsjglkfds
+                    fdljgd
+                </p>
+            </div>
         </div>
     </section>
     <footer id="footer">
-        <p>Desarrollado por Bryan Reyes y Alberto Ruelas </p>
+        <p>Desarrollado por Bryan Reyes y Alberto Ruelas <?= date('Y') ?></p>
     </footer>
 </body>
 </html>
