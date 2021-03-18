@@ -23,11 +23,11 @@
         </div>
     </header>
     <section>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top ">
             <a class="navbar-brand" href="#">
                 <img src="img/Logo.jpg" alt="Shoe'store" width="50" height="50">
             </a>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Mujere</a>
                 </li>
@@ -41,15 +41,23 @@
                     <a class="nav-link" href="#">Nosotros</a>
                 </li>
             </ul>
-            <a>
-                <button type="button" class="btn btn-info">Registrar</button>
-            </a>
-            <a>
-                <button type="button" class="btn btn-success">Iniciar Sesion</button>
-            </a>
-            <a>
-                <button type="button" class="btn btn-danger">Salir</button>
-            </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <button type="button" class="btn btn-info">Registrar</button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <button type="button" class="btn btn-success">Iniciar Sesion</button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <button type="button" class="btn btn-danger">Salir</button>
+                    </a>
+                </li>
+            </ul>
         </nav>
         <div class="container-fluid"><br>
             <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
