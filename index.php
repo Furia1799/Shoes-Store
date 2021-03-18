@@ -74,6 +74,29 @@
             <div class="row">
                 <div class="col-lg-4">
                     <a href="producto ">
+                        <img src="img/tennis_1.jpg" class="rounded" alt="tennis_3" width="300" height="300">
+                        <h2>zapatoos negros</h2>
+                        <p> 300 pesos</p>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="producto">
+                        <img src="img/tennis_2.jpg" class="rounded" alt="tennis_2" width="300" height="300">
+                        <h2>zapatoos negros</h2>
+                        <p> 300 pesos</p>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="producto">
+                        <img src="img/tennis_3.jpg" class="rounded" alt="tennis_1" width="300" height="300">
+                        <h2>zapatoos negros</h2>
+                        <p> 300 pesos</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="producto ">
                         <img src="img/tennis_1.jpg" alt="tennis_3" width="300" height="300">
                         <h2>zapatoos negros</h2>
                         <p> 300 pesos</p>
