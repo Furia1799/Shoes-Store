@@ -23,6 +23,7 @@
         </div>
     </header>
     <section>
+        <!--MENU-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top ">
             <a class="navbar-brand" href="#">
                 <img src="img/Logo.jpg" alt="Shoe'store" width="50" height="50">
@@ -43,7 +44,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link" href="login.php">
                         <button type="button" class="btn btn-info">Registrar</button>
                     </a>
                 </li>
